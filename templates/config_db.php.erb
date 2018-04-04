@@ -1,0 +1,9 @@
+<?php
+/** This file is managed by Puppet <%= @name %> **/
+class DB extends DBmysql {
+ var $dbhost     = '<%= @dbhost %>';
+ var $dbuser     = '<%= @dbuser %>';
+ var $dbpassword = '<%= @dbpassword %>';
+ var $dbdefault	 = '<%= @dbdefault %>';
+}
+?>
